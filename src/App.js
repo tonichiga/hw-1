@@ -1,12 +1,12 @@
-import Profile from "./components/profile/index";
-import user from "./users/user.json";
-import Statistics from "./components/statistics";
-import statistic from "./users/statistical-data.json";
-import friends from "./users/friends-list.json";
-import FriendsList from "./components/friend-list";
-import transactions from "./users/transactions.json";
-import Transaction from "./components/Transaction";
-import PropTypes from "prop-types";
+import Profile from './components/profile/index';
+import user from './users/user.json';
+// import Statistics from "./components/statistics";
+import statistic from './users/statistical-data.json';
+import friends from './users/friends-list.json';
+import FriendsList from './components/friend-list';
+import transactions from './users/transactions.json';
+import Transaction from './components/Transaction';
+import PropTypes from 'prop-types';
 const App = () => {
   return (
     <div>
@@ -24,9 +24,9 @@ const App = () => {
       <FriendsList data={friends} />
 
       <Transaction
-        type={"type"}
-        amount={"amount"}
-        currency={"currency"}
+        type={'type'}
+        amount={'amount'}
+        currency={'currency'}
         data={transactions}
       />
     </div>
