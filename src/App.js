@@ -1,11 +1,12 @@
-import Profile from "./components/Profile";
+import Profile from "./components/profile/index";
 import user from "./users/user.json";
-import Statistics from "./components/Statistics";
+import Statistics from "./components/statistics";
 import statistic from "./users/statistical-data.json";
 import friends from "./users/friends-list.json";
-import FriendsList from "./components/FriendsList";
+import FriendsList from "./components/friend-list";
 import transactions from "./users/transactions.json";
 import Transaction from "./components/Transaction";
+import PropTypes from "prop-types";
 const App = () => {
   return (
     <div>
@@ -21,6 +22,7 @@ const App = () => {
 
       <Statistics title="Uploads data" statData={statistic} />
       <FriendsList data={friends} />
+
       <Transaction
         type={"type"}
         amount={"amount"}
@@ -32,3 +34,21 @@ const App = () => {
 };
 
 export default App;
+
+Transaction.propTypes = {
+  type: PropTypes.string,
+  amount: PropTypes.string,
+  currency: PropTypes.string,
+};
+Statistics.propTypes = {
+  title: PropTypes.string,
+};
+Profile.propTypes = {
+  name: PropTypes.string,
+  tag: PropTypes.string,
+  location: PropTypes.string,
+  avatar: PropTypes.string,
+  followers: PropTypes.number,
+  views: PropTypes.number,
+  likes: PropTypes.number,
+};

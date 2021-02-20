@@ -1,0 +1,28 @@
+.statistics-wrapper {
+  text-align: center;
+  width: 320px;
+  padding-top: 30px;
+  margin: 0 auto;
+  background-color: white;
+  margin-bottom: 20px;
+}
+.statistics-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+// .perc-item {
+//   display: block;
+// }
+.statistics-title {
+  margin: 0;
+  margin-bottom: 20px;
+}
+.perc-element {
+  width: calc(100% / 4);
+  border: solid 1px;
+  border-color: #cfcfcf;
+}

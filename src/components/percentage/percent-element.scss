@@ -1,0 +1,18 @@
+.perc-element {
+  width: calc(100% / 4);
+  border: solid 1px;
+  border-color: #cfcfcf;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgb(231, 231, 231);
+}
+.perc-label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.perc-item {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
