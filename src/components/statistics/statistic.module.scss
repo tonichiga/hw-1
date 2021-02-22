@@ -1,4 +1,4 @@
-.statistics-wrapper {
+.statisticsWrapper {
   text-align: center;
   width: 320px;
   padding-top: 30px;
@@ -6,7 +6,7 @@
   background-color: white;
   margin-bottom: 20px;
 }
-.statistics-list {
+.statisticsList {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,11 +17,11 @@
 // .perc-item {
 //   display: block;
 // }
-.statistics-title {
+.statisticsTitle {
   margin: 0;
   margin-bottom: 20px;
 }
-.perc-element {
+.percElement {
   width: calc(100% / 4);
   border: solid 1px;
   border-color: #cfcfcf;

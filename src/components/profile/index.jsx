@@ -1,27 +1,27 @@
 import React from 'react';
-import profile from './profile.scss';
+import s from './profile.module.scss';
 
 const Profile = props => {
   return (
-    <div className="profile">
-      <div className="description">
-        <img src={props.avatar} alt="" className="avatar" />
-        <p className="name">{props.name}</p>
-        <p className="tag">@{props.tag}</p>
-        <p className="location">{props.location}</p>
+    <div className={s.profile}>
+      <div className={s.description}>
+        <img src={props.avatar} alt="" className={s.avatar} />
+        <p className={s.name}>{props.name}</p>
+        <p className={s.tag}>@{props.tag}</p>
+        <p className={s.location}>{props.location}</p>
       </div>
-      <ul className="stats">
-        <li className="stats-element">
-          <span className="label">Followers</span>
-          <span className="quantity">{props.followers}</span>
+      <ul className={s.stats}>
+        <li className={s.statsElement}>
+          <span className={s.label}>Followers</span>
+          <span className={s.quantity}>{props.followers}</span>
         </li>
-        <li className="stats-element">
-          <span className="label">Views</span>
-          <span className="quantity">{props.views}</span>
+        <li className={s.statsElement}>
+          <span className={s.label}>Views</span>
+          <span className={s.quantity}>{props.views}</span>
         </li>
-        <li className="stats-element">
-          <span className="label">Likes</span>
-          <span className="quantity">{props.likes}</span>
+        <li className={s.statsElement}>
+          <span className={s.label}>Likes</span>
+          <span className={s.quantity}>{props.likes}</span>
         </li>
       </ul>
     </div>

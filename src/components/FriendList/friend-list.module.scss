@@ -1,16 +1,16 @@
-.friend-section {
+.friendSection {
   width: 320px;
   padding: 20px 30px 20px 30px;
   margin: 0 auto;
   background-color: white;
   margin-bottom: 20px;
 }
-.frien-list {
+.frienList {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.friend-element {
+.friendElement {
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-end;
@@ -21,16 +21,16 @@
 
   box-shadow: 1px 1px 4px 2px rgb(175, 175, 175);
 }
-.friend-element:not(:last-child) {
+.friendElement:not(:last-child) {
   margin-bottom: 10px;
 }
-.friend-img {
+.friendImg {
   width: 80px;
   height: 80px;
   border-radius: 5px;
   background-color: rgb(206, 206, 206);
   margin-right: 20px;
 }
-.friend-status {
+.friendStatus {
   margin-right: 20px;
 }
