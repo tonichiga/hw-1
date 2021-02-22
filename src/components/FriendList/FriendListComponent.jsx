@@ -1,6 +1,7 @@
-import Friend from "../friend";
-import "./friend-list.scss";
-import PropTypes from "prop-types";
+import React from 'react';
+import Friend from './components/FriendList';
+import './friend-list.module.scss';
+import PropTypes from 'prop-types';
 
 const FriendsList = ({ data }) => (
   <section className="friend-section">

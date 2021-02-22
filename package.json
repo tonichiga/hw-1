@@ -2,7 +2,7 @@
   "name": "hw-1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tonichiga/github.io/hw-1",
+  "homepage": "https://tonichiga.github.io/hw-1",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
@@ -11,7 +11,7 @@
     "modern-normalize": "^1.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-scripts": "4.0.2",
+    "react-scripts": "^4.0.2",
     "sass": "^1.32.8",
     "web-vitals": "^1.1.0"
   },

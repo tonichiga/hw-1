@@ -1,6 +1,7 @@
-import profile from "./profile.scss";
+import React from 'react';
+import profile from './profile.scss';
 
-const Profile = (props) => {
+const Profile = props => {
   return (
     <div className="profile">
       <div className="description">

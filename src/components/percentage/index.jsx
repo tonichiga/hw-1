@@ -1,4 +1,5 @@
-import "./percent-element.scss";
+import React from 'react';
+import './percent-element.scss';
 
 const getRgbColor = () =>
   `rgb( ${Math.random() * 255}, ${Math.random() * 250}, ${

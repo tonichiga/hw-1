@@ -1,5 +1,6 @@
-import PercentageElement from "../percentage/index";
-import "./statistic.scss";
+import React from 'react';
+import PercentageElement from '../Percentage/index';
+import './statistic.scss';
 
 const Statistics = ({ title, statData }) => {
   return (

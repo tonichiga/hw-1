@@ -1,6 +1,7 @@
-import Type from "./transaction/index";
-import "./table.scss";
-import PropTypes from "prop-types";
+import React from 'react';
+import TransactionElement from './components/TransactionElement';
+import './table.scss';
+import PropTypes from 'prop-types';
 
 const Transaction = ({ amount, currency, type, data }) => (
   <table className="transaction-history">
@@ -12,7 +13,7 @@ const Transaction = ({ amount, currency, type, data }) => (
       </tr>
     </thead>
     <tbody>
-      <Type data={data} />
+      <TransactionElement data={data} />
     </tbody>
   </table>
 );

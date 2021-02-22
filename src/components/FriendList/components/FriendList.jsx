@@ -1,9 +1,5 @@
-import friend from "./friend.scss";
-import PropTypes from "prop-types";
-
-const style = () => `
-
-`;
+import friend from './friend-list.scss';
+import PropTypes from 'prop-types';
 
 const Friend = ({ data }) =>
   data.map(({ avatar, name, isOnline, id }) => {
@@ -17,15 +13,15 @@ const Friend = ({ data }) =>
             isOnline
               ? {
                   backgroundColor: `rgb(0, 230, 0)`,
-                  width: "20px",
-                  height: "20px",
-                  borderRadius: "50%",
+                  width: '20px',
+                  height: '20px',
+                  borderRadius: '50%',
                 }
               : {
                   backgroundColor: `rgb(220, 0, 0)`,
-                  width: "20px",
-                  height: "20px",
-                  borderRadius: "50%",
+                  width: '20px',
+                  height: '20px',
+                  borderRadius: '50%',
                 }
           }
         ></span>
@@ -40,6 +36,6 @@ Friend.propTypes = {
       avatar: PropTypes.string,
       name: PropTypes.string,
       isOnline: PropTypes.bool.isRequired,
-    })
+    }),
   ),
 };

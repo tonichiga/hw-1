@@ -1,12 +1,16 @@
-import Profile from './components/profile/index';
-import user from './users/user.json';
-import Statistics from './components/statistics';
-import statistic from './users/statistical-data.json';
-import friends from './users/friends-list.json';
-import FriendsList from './components/friend-list';
-import transactions from './users/transactions.json';
-import Transaction from './components/Transaction';
+import React from 'react';
 import PropTypes from 'prop-types';
+
+import Profile from './components/Profile/index';
+import Statistics from './components/Statistics';
+import FriendsList from './components/FriendList/FriendListComponent';
+import Transaction from './components/Transaction/Transaction';
+
+import user from './data/user.json';
+import transactions from './data/transactions.json';
+import friends from './data/friends-list.json';
+import statistic from './data/statistical-data.json';
+
 const App = () => {
   return (
     <div>
