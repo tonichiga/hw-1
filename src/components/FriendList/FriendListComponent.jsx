@@ -6,7 +6,9 @@ import PropTypes from 'prop-types';
 const FriendsList = ({ data }) => (
   <section className={s.friendSection}>
     <ul className={s.frienList}>
-      <Friend data={data} />
+      {data.map(({ avatar, name, isOnline, id }) => (
+        <Friend avatar={avatar} name={name} isOnline={isOnline} id={id} />
+      ))}
     </ul>
   </section>
 );

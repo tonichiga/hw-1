@@ -1,19 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import TransactionElementComponent from './TransactionElementComponent.jsx';
+// import TransactionElementComponent from './TransactionElementComponent.jsx';
 
-const TransactionElement = ({ data }) => {
+const TransactionElement = ({ amount, currency, type, id }) => {
   return (
-    <>
-      {data.map(el => (
-        <TransactionElementComponent
-          key={el.id}
-          type={el.type}
-          amount={el.amount}
-          currency={el.currency}
-        />
-      ))}
-    </>
+    <tr key={id}>
+      <td>{type}</td>
+      <td>{amount}</td>
+      <td>{currency}</td>
+    </tr>
   );
 };
 export default TransactionElement;

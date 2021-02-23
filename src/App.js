@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import Profile from './components/Profile/index';
-import Statistics from './components/Statistics';
+import Statistics from './components/Statistics/Statistics';
 import FriendsList from './components/FriendList/FriendListComponent';
 import Transaction from './components/Transaction/Transaction';
 
